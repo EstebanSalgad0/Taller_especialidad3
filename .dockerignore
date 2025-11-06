@@ -1,0 +1,45 @@
+﻿# Ignore local secrets and environment files
+db_password.txt
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Docker
+docker-compose.yml
+Makefile
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation and tests
+README.md
+*.md
+tests/
+docs/
+
+# Backup files
+*.sql
+backup.sql

@@ -1,0 +1,12 @@
+# Ignore local secrets and environment files
+db_password.txt
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editor
+.vscode/
+*.swp
